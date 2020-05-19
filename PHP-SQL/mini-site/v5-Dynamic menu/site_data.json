@@ -1,0 +1,23 @@
+{ 
+  "global_title" : "The heavy metal Company",
+  "description"  : "Everything about heavy metal stuff",
+  "keywords"     : "PHP,Dynamic,Powercoders",
+  "author"       : "Nikoloz paposhvili",
+
+
+  "pages"        : { 
+    "index": {
+      "title": "where hardest stuff is possible",
+      "menu": "HOME"
+    },
+    "work": {
+      "title": "A SELECTION OF OUR LATEST PROJECTS",
+      "menu": "WORK"
+    },
+    "contact": {
+      "title": "SAY HELLO!",
+      "menu": "CONTACT"
+    }
+  } 
+
+}

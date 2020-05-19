@@ -1,0 +1,27 @@
+/*DESKTOP FIRTST APROACHE*/
+body {background-color: #ccc;}
+h1 {text-align: center; padding: 3m 5%;
+font-size: 2em; background-color: salmon;}
+
+/*MEDIA QUAIARIES*/
+
+@media (max-width: 1024px) {
+body {background-color: skyblue;}
+h1 {background-color: tan;}
+
+
+}
+
+@media (max-width: 768px) {
+  body {background-color: red;}
+  h1 {background-color: green;}
+  
+  
+  }
+
+  @media (max-width: 480px) {
+    body {background-color:silver;}
+    h1 {background-color: yellowgreen}
+    
+    
+    }
