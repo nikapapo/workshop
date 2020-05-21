@@ -66,14 +66,9 @@ def remainder (x,y) :
 #print (remainder(28,12))
 
 
-# 6. Extract City Facts
-#=============================================
 
 
-
-
-
-# 7. Calculate the Profit
+# 6. Calculate the Profit
 #================================================
 
 def profit(costPrice, sellPrice, inventory): 
@@ -88,20 +83,50 @@ def profit(costPrice, sellPrice, inventory):
 
 
 
-# 8. Is today Tuesday
+# 7. Is today Tuesday
 #===================================================
 
-import datetime
+#import time
 
-weekDays = ("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")
-current_weekday = current.datetime
 
-def my_day (current_weekday):
-  if current_weekday == weekDays[1]:
-    return("Yes, It is a Tuesday")
-  else :
-    return ("Nope, You are wrooong!")
+#today = time.strftime("%A")
 
-print(my_day)
+#if today == "Tuesday" :
+  # print ("Yes, today is Tuesday")
 
-#NOT DONE !! WILL DO :)))) LAST ONE DOESN'T WORK
+#else:
+ #  print ("No, it is not Tuesday")
+
+
+# 8.Equality of 3 Values
+#=============================================
+
+
+def equality(a,b,c):
+
+    if (a == b) and (a==c):
+        return (3)
+    elif (a == b) or (a==c) or (b==c):
+        return (2)
+    else :
+        return(0)
+print(equality(5,3,2))
+
+
+
+# That's all , I think ...:)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
