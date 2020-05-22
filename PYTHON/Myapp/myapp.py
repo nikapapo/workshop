@@ -19,10 +19,10 @@ def generate_password():
         password.append(numbers)
     
     y="".join(str(x)for x in password)
-    label.config(text=y)
+    textbox.insert(tk.INSERT,y)
     return(x)
-
-    
+# for copy a password you must select it with left mousbutton, then ctr+c
+# i didn't found any other solution
     
 
 
@@ -40,8 +40,8 @@ canvas.pack()
 frame = tk.Frame(root, bg="blue", bd=5)
 frame.place(relx=0.5,rely=0.1,relwidth=0.75,relheight=0.25,anchor='n')
 
-label = tk.Label(frame,font=('Arial',14))
-label.place(relwidt=0.65,relheight=1.)
+textbox = tk.Text(frame,font=('Arial',14))
+textbox.place(relwidt=0.65,relheight=1.)
 
 
 button = tk.Button(frame,text="Generate", font=('Arial',12),bg="white",command=generate_password)
